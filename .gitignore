@@ -1,0 +1,5 @@
+scaffold/.venv/
+scaffold/data/*.db
+scaffold/output/
+__pycache__/
+*.pyc
