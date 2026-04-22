@@ -18,6 +18,10 @@
 
 OpenClaw 的定位是正式日报层。它会基于少量入选条目，输出更适合阅读和分享的正式日报文档。
 
+下面是 OpenClaw 正式日报文档的实际效果截图：
+
+![OpenClaw Doc Example](../assets/openclaw-doc-example.png)
+
 示例文档：
 
 - [OpenClaw 正式日报示例（飞书 Docx）](https://mnc4pihca8.feishu.cn/docx/A36tdSntHoAFtGxdBetcygdDnQb?from=from_copylink)
