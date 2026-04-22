@@ -12,6 +12,10 @@
 
 - [参考信源（公开版）v3.0.2](sources/reference-sources-v3.0.2.md)
 
+## 可运行示例
+
+- [最小可运行 Scaffold](../scaffold/README.md)
+
 ## 架构原则
 
 - [AI 系统架构原则：能脚本化就不要先交给大模型](principles/script-first.md)

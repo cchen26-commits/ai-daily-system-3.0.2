@@ -1,0 +1,25 @@
+sources:
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    category: 技术突破
+    content_type: news
+
+  - name: Anthropic News
+    url: https://www.anthropic.com/news/rss.xml
+    category: 技术突破
+    content_type: news
+
+  - name: Hacker News Frontpage
+    url: https://news.ycombinator.com/rss
+    category: 今日热点
+    content_type: news
+
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    category: 今日热点
+    content_type: news
+
+  - name: KDnuggets
+    url: https://www.kdnuggets.com/feed
+    category: 工具/教程
+    content_type: tutorial

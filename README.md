@@ -22,6 +22,7 @@
 - [Hermes 操作手册](docs/architecture/hermes-setup-v3.0.2.md)
 - [OpenClaw 操作手册](docs/architecture/openclaw-setup-v3.0.md)
 - [参考信源（公开版）](docs/sources/reference-sources-v3.0.2.md)
+- [最小可运行 Scaffold](scaffold/README.md)
 
 ## 快速理解
 
