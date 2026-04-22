@@ -36,10 +36,6 @@ Hermes 的角色是提醒层：
 
 OpenClaw 的角色是正式输出层：
 
-- 实际文档效果截图：
-
-![OpenClaw Doc Example](docs/assets/openclaw-doc-example.png)
-
 - [OpenClaw 正式日报示例（飞书 Docx）](https://mnc4pihca8.feishu.cn/docx/A36tdSntHoAFtGxdBetcygdDnQb?from=from_copylink)
 
 适合：
