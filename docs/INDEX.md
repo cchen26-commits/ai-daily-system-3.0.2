@@ -2,6 +2,7 @@
 
 ## 搭建架构
 
+- [AI 日报系统搭建思路（对外说明）v3.0.2](architecture/public-build-thinking-v3.0.2.md)
 - [AI 日报系统整体搭建方案（Hermes + OpenClaw）v3.02](architecture/system-overview-v3.0.2.md)
 - [Hermes 从 0 搭建飞书 AI 日报系统操作手册 v3.02](architecture/hermes-setup-v3.0.2.md)
 - [OpenClaw 从 0 搭建正式日报系统操作手册 v3.0](architecture/openclaw-setup-v3.0.md)
