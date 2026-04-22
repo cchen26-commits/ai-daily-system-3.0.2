@@ -8,6 +8,10 @@
 - [OpenClaw 从 0 搭建正式日报系统操作手册 v3.0](architecture/openclaw-setup-v3.0.md)
 - [2026-04-22 观察面同步时机调整结论](architecture/observation-sync-2026-04-22.md)
 
+## 参考资料
+
+- [参考信源（公开版）v3.0.2](sources/reference-sources-v3.0.2.md)
+
 ## 架构原则
 
 - [AI 系统架构原则：能脚本化就不要先交给大模型](principles/script-first.md)
