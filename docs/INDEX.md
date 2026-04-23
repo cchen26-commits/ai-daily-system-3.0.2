@@ -20,6 +20,10 @@
 
 - [最小可运行 Scaffold](../scaffold/README.md)
 
+## 发布版运行时
+
+- [1.0.3 双 Agent 公开归档版](../releases/1.0.3/README.md)
+
 ## 架构原则
 
 - [AI 系统架构原则：能脚本化就不要先交给大模型](principles/script-first.md)

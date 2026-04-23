@@ -15,6 +15,7 @@
 - [输出效果](#输出效果)
 - [工作流机制](#工作流机制)
 - [架构原则](#架构原则)
+- [发布版运行时](#发布版运行时)
 - [快速开始](#快速开始)
 - [适用对象](#适用对象)
 - [文档索引](#文档索引)
@@ -111,6 +112,28 @@ AI Daily System 解决的是信息过载时代的两个核心问题：
 
 ---
 
+## 发布版运行时
+
+仓库现在同时包含两类内容：
+
+1. **公开文档与 scaffold**
+2. **双 agent 架构的公开归档运行时（1.0.3）**
+
+`1.0.3` 目录位置：
+
+- [releases/1.0.3](releases/1.0.3/README.md)
+
+内容包括：
+
+- `runtime/hermes/`
+- `runtime/openclaw/`
+- `config/examples/`
+- 发布说明与可发布清单
+
+这部分不是原始工作目录快照，而是经过清洗后的公开版运行时。
+
+---
+
 ## 快速开始
 
 ### 方式一：直接跑最小版本
@@ -155,6 +178,7 @@ python3 scripts/render_cards.py
 |------|------|
 | 架构 | [搭建思路](docs/architecture/public-build-thinking-v3.0.2.md) · [整体方案](docs/architecture/system-overview-v3.0.2.md) |
 | 操作 | [Hermes 手册](docs/architecture/hermes-setup-v3.0.2.md) · [OpenClaw 手册](docs/architecture/openclaw-setup-v3.0.md) |
+| 发布版 | [1.0.3 运行时归档](releases/1.0.3/README.md) |
 | 原则 | [脚本优先](docs/principles/script-first.md) · [Skill 收敛](docs/principles/skill-convergence.md) |
 | 参考 | [信源列表](docs/sources/reference-sources-v3.0.2.md) · [效果展示](docs/showcase/output-examples-v3.0.2.md) |
 | 其他 | [最小可运行 Scaffold](scaffold/README.md) · [更新日志](CHANGELOG.md) |

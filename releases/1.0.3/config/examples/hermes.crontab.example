@@ -1,0 +1,16 @@
+# AI Daily System / Hermes 公开版 cron 模板
+
+# 约定部署目录
+# /opt/ai-daily-system/runtime/hermes
+
+# 抓取入库 (7:30 / 11:30 / 15:30)
+30 7,11,15 * * * cd /opt/ai-daily-system/runtime/hermes/scripts && python3 -u fetch_and_write.py >> /opt/ai-daily-system/runtime/hermes/logs/fetch.log 2>&1
+
+# 生成发送 (8:00 / 12:00 / 16:00)
+0 8,12,16 * * * cd /opt/ai-daily-system/runtime/hermes/scripts && python3 -u generate_short_report.py >> /opt/ai-daily-system/runtime/hermes/logs/report.log 2>&1
+
+# 抓取健康检查
+40 7,11,15 * * * python3 /opt/ai-daily-system/runtime/hermes/scripts/check_fetch.py >> /opt/ai-daily-system/runtime/hermes/logs/check_fetch.log 2>&1
+
+# 发送健康检查
+10 8,12,16 * * * python3 /opt/ai-daily-system/runtime/hermes/scripts/check_report.py >> /opt/ai-daily-system/runtime/hermes/logs/check_report.log 2>&1

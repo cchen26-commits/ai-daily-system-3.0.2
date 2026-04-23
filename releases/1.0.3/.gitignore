@@ -1,0 +1,14 @@
+.DS_Store
+raw/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.backup
+.env
+.venv/
+__pycache__/
+node_modules/
+logs/
+output/
+tmp/

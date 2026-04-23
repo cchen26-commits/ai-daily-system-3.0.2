@@ -1,0 +1,21 @@
+# Hermes 公开版运行时环境变量模板
+
+# 基础路径
+export HERMES_BASE="/opt/ai-daily-system/runtime/hermes"
+export HERMES_LOGS="$HERMES_BASE/logs"
+export HERMES_DB="$HERMES_BASE/runtime/shared_materials.db"
+
+# 飞书观察面（可选）
+export HERMES_BITABLE_TABLE="your_bitable_table_id"
+export HERMES_BITABLE_BASE_TOKEN="your_bitable_base_token"
+export HERMES_BITABLE_SYNC="false"
+
+# 快报发送开关
+export HERMES_SEND_ENABLED="false"
+
+# LLM
+export HERMES_MMX_MODEL="MiniMax-M2.7-highspeed"
+export HERMES_MMX_PROVIDER="minimax-cn"
+
+# 可选：自定义 lark-cli 位置
+export LARK_CLI_BIN="/usr/local/bin/lark-cli"
